@@ -1,0 +1,14 @@
+meme_dict = {
+              "LMAO":"sesli bir şekilde güldüm anlamına gelir",
+              "LOL":"komik bir şeye verilen cevap",
+              "SHESSS":"onaylamamak",
+              "ROLF":"bir şakaya karşılık cevap",
+              "CRİNGE":"garip yada utandırıcı bir şey",
+               }
+
+    word = input("Anlamadığınız bir kelime yazın (hepsini büyük harflerle yazın!): ")
+
+    if word in meme_dict.keys():
+        print(meme_dict[word])
+    else:
+        print("sözlükte bulunmuyor başka bir kelime yazmayı dene")
